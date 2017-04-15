@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{04777848-7DED-4A60-8F6C-468F4D8AFC5D}</ProjectGuid>
+    <ProjectGuid>{996870BB-7CE4-4B15-887B-2FE3688F3193}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataMonitoring</RootNamespace>
-    <AssemblyName>DataMonitoring</AssemblyName>
+    <RootNamespace>SCADA_DataMonitoringSystem</RootNamespace>
+    <AssemblyName>SCADA_DataMonitoringSystem</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataMonitor.cs">
+    <Compile Include="SCADA_DataMonitor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataMonitor.Designer.cs">
-      <DependentUpon>DataMonitor.cs</DependentUpon>
+    <Compile Include="SCADA_DataMonitor.Designer.cs">
+      <DependentUpon>SCADA_DataMonitor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DataMonitor.resx">
-      <DependentUpon>DataMonitor.cs</DependentUpon>
+    <EmbeddedResource Include="SCADA_DataMonitor.resx">
+      <DependentUpon>SCADA_DataMonitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

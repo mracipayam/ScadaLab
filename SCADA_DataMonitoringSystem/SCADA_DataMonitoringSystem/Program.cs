@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DataLogging
+namespace SCADA_DataMonitoringSystem
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace DataLogging
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataLogger());
+            Application.Run(new SCADA_DataMonitor());
         }
     }
 }

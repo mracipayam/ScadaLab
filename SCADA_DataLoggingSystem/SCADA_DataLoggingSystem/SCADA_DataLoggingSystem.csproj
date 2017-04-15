@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{073F83DD-FDCA-4EC5-9DA6-33FE98F3C88E}</ProjectGuid>
+    <ProjectGuid>{44D6841E-2B3E-41CD-BEC9-25F979F70308}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataLogging</RootNamespace>
-    <AssemblyName>DataLogging</AssemblyName>
+    <RootNamespace>SCADA_DataLoggingSystem</RootNamespace>
+    <AssemblyName>SCADA_DataLoggingSystem</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataLogger.cs">
+    <Compile Include="SCADA_DataLogger.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataLogger.Designer.cs">
-      <DependentUpon>DataLogger.cs</DependentUpon>
+    <Compile Include="SCADA_DataLogger.Designer.cs">
+      <DependentUpon>SCADA_DataLogger.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DataLogger.resx">
-      <DependentUpon>DataLogger.cs</DependentUpon>
+    <EmbeddedResource Include="SCADA_DataLogger.resx">
+      <DependentUpon>SCADA_DataLogger.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DataMonitoring
+namespace SCADA_DataLoggingSystem
 {
-    public partial class DataMonitor : Form
+    public partial class SCADA_DataLogger : Form
     {
-        public DataMonitor()
+        public SCADA_DataLogger()
         {
             InitializeComponent();
         }

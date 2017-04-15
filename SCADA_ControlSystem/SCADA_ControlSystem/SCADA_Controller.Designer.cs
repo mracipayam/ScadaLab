@@ -1,6 +1,6 @@
-﻿namespace DataLogging
+﻿namespace SCADA_ControlSystem
 {
-    partial class DataLogger
+    partial class SCADA_Controller
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // DataLogger
+            // SCADA_Controller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Name = "DataLogger";
-            this.Text = "DataLogger";
+            this.Name = "SCADA_Controller";
+            this.Text = "SCADA_Controller";
             this.ResumeLayout(false);
 
         }

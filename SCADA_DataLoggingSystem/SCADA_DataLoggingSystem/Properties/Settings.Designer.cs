@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DataLogging.Properties
+namespace SCADA_DataLoggingSystem.Properties
 {
 
 

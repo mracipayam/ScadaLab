@@ -1,6 +1,6 @@
-﻿namespace DataMonitoring
+﻿namespace SCADA_DataLoggingSystem
 {
-    partial class DataMonitor
+    partial class SCADA_DataLogger
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // DataMonitor
+            // SCADA_DataLogger
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Name = "DataMonitor";
-            this.Text = "DataMonitor";
+            this.Name = "SCADA_DataLogger";
+            this.Text = "SCADA_DataLogger";
             this.ResumeLayout(false);
 
         }

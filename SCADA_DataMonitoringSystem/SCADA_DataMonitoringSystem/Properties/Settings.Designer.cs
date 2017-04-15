@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DataMonitoring.Properties
+namespace SCADA_DataMonitoringSystem.Properties
 {
 
 

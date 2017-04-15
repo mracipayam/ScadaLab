@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DataMonitoring
+namespace SCADA_ControlSystem
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace DataMonitoring
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataMonitor());
+            Application.Run(new SCADA_Controller());
         }
     }
 }

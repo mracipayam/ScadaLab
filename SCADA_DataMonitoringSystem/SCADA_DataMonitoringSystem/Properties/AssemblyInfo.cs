@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DataMonitoring")]
+[assembly: AssemblyTitle("SCADA_DataMonitoringSystem")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DataMonitoring")]
+[assembly: AssemblyProduct("SCADA_DataMonitoringSystem")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("04777848-7ded-4a60-8f6c-468f4d8afc5d")]
+[assembly: Guid("996870bb-7ce4-4b15-887b-2fe3688f3193")]
 
 // Version information for an assembly consists of the following four values:
 //
