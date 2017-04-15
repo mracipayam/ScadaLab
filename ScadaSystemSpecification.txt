@@ -1,0 +1,11 @@
+If an alarm (of particular type) is active, then dont create new alarm until it is ackwnoledged
+
+If database is not-available, log data csv file
+
+Get current date (date only) and separate into individual parts as day, month and year
+
+	select convert(date, getdate()) as CurrentDate
+	select datepart(day, getdate()) as DD, datepart(month, getdate()) as MM, datepart(year, getdate()) as YYYY
+	select day(getdate()) as DD, month(getdate()) as MM, year(getdate()) as YYYY
+	Select Convert(Time(0), getdate() ,0)
+	select datepart(hour, getdate()) as hh, datepart(minute, getdate()) as mm, datepart(second, getdate()) as ss
