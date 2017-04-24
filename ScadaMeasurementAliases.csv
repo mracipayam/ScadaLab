@@ -1,0 +1,23 @@
+# OPC Server - Alias CSV File
+# Format as follows:
+# GroupName,AliasName,"Item Path",DataType,ReadOnly,PollAlways,UpdateRate
+# e.g.: [MyGroup1,MyAlias,"Plc1.4:1001",3,1,1,500
+# 
+# Tips: - do not leave spaces between commas and values
+#       - consult user's manual for valid data type enumerations
+#       - always provide an update rate if poll always is true
+#       - aliases are case sensitive - ensure you use appropriate case
+# DataType: 8 = string, 7 = date, 5 = real8 (double)
+ScadaMeasurements,AcknowledgedTime,,7,0,0,0,0
+ScadaMeasurements,AlarmLimH,,5,0,0,0,0
+ScadaMeasurements,AlarmLimitHH,,5,0,0,0,0
+ScadaMeasurements,AlarmLimitL,,5,0,0,0,0
+ScadaMeasurements,AlarmLimitLL,,5,0,0,0,0
+ScadaMeasurements,AlarmTime,,7,0,0,0,0
+ScadaMeasurements,ControlSignal,,5,0,0,0,0
+ScadaMeasurements,MeasurementTime,,7,0,0,0,0
+ScadaMeasurements,Password,,8,0,0,0,0
+ScadaMeasurements,SensorID,,8,0,0,0,0
+ScadaMeasurements,Temperature,,5,0,0,0,0
+ScadaMeasurements,TemperatureUnit,,8,0,0,0,0
+ScadaMeasurements,UserName,,8,0,0,0,0
